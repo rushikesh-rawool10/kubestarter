@@ -11,6 +11,6 @@ spec:
     - protocol: TCP
       port: 80       # Port in the service
       targetPort: 80 # Port in the pod
-      NodePort: 30007
+      nodePort: 30007
   
   
